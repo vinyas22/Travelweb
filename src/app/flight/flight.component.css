@@ -165,9 +165,8 @@
     position: absolute;
     left: 0px;
     right: 0px;
-    bottom: 50px;
-    padding: 20px;
-    z-index: 999;
+    z-index: 10;
+    align-items: center;
 }
 .tab1.active {
     display: block
@@ -179,7 +178,7 @@
     float: left;
     width: 100%;
     background: rgba(0, 130, 185, .8);
-    padding: 0 10px 10px 10px;
+    padding: 0;
     color: #fff;
 }
 .tabing ul {
@@ -191,6 +190,9 @@
 }
 .tabing ul li {
     float: left;
+}
+.textboxstyle{
+    justify-content: center;
 }
 .tabing ul li a {
     display: block;
@@ -210,7 +212,6 @@
 .flight-tab {
     width: 100%;
     float: left;
-    margin-top: 10px;
     padding: 15px
 }
 .flight-tab .textboxstyle {
@@ -396,3 +397,35 @@
     font-size: 16px;
     color: rgba(255, 255, 255, 0.8);
 }
+
+.ip{
+    position: absolute;
+}
+
+.bg-blue {
+    background: blue;
+  }
+  
+  .dotted-line {
+    border: 1px dashed #fff;
+  }
+  
+  .img-fluid {
+    width: auto;
+    height: auto;
+  }
+  
+  .bg-top {
+    background: #8E24AA;
+  }
+
+  .ip{
+    display: inline-flex;
+
+
+  }
+  .form-control{
+    width: 50%;
+    margin-left: 25%;
+  }
+ 
