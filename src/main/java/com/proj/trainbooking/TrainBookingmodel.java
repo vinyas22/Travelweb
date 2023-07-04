@@ -1,0 +1,80 @@
+package com.proj.trainbooking;
+
+
+
+public class TrainBookingmodel {
+	
+	int id;
+	String name, phone, train_name, source, destination, seat_no, price,datee;
+	public String getDatee() {
+		return datee;
+	}
+	public void setDatee(String datee) {
+		this.datee = datee;
+	}
+	String departure, arrival;
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getPhone() {
+		return phone;
+	}
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+	public String getTrain_name() {
+		return train_name;
+	}
+	public void setTrain_name(String train_name) {
+		this.train_name = train_name;
+	}
+	public String getSource() {
+		return source;
+	}
+	public void setSource(String source) {
+		this.source = source;
+	}
+	public String getDestination() {
+		return destination;
+	}
+	public void setDestination(String destination) {
+		this.destination = destination;
+	}
+	public String getSeat_no() {
+		return seat_no;
+	}
+	public void setSeat_no(String seat_no) {
+		this.seat_no = seat_no;
+	}
+	public String getPrice() {
+		return price;
+	}
+	public void setPrice(String price) {
+		this.price = price;
+	}
+	public String getDeparture() {
+		return departure;
+	}
+	public void setDeparture(String departure) {
+		this.departure = departure;
+	}
+	public String getArrival() {
+		return arrival;
+	}
+	public void setArrival(String arrival) {
+		this.arrival = arrival;
+	}
+	
+	
+
+}
